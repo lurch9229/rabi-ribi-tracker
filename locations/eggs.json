@@ -1,0 +1,811 @@
+[
+    {
+        "name": "Eggs Main",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items/bunny_memories.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Starting Forest East Mid  - Egg",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 683,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1903",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "bombs",
+                            "carrotshot",
+                            "doublejump,walljump",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest North East - Egg (On Pillar)",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 860,
+                        "y": 30
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2101",
+                        "access_rules":
+                        [
+                            "slippers, airJump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Egg Upper",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 359,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1007",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Egg Lower",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 610,
+                        "y": 315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1309",
+                        "access_rules":
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 574,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1161",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 285,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0811",
+                        "access_rules": 
+                        [
+                            "",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Night Forest East - Egg",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 359,
+                        "y": 101
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1002",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Night Forest North - Egg",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 217,
+                        "y": 62
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0602",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid - Egg",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 612,
+                        "y": 533
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1715",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beach - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 540,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1411",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Beach - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 110,
+                        "y": 565
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0316",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard - Egg",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 325,
+                        "y": 140
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0904",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sky Town - Egg",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 758,
+                        "y": 133
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2004",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 119,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0316",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 81,
+                        "y": 458
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0212",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "UPRPRC Base Egg",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 153,
+                        "y": 530
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "0414",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 619,
+                        "y": 458
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1711",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 691,
+                        "y": 423
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1911",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 261,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0107",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 225,
+                        "y": 29
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 294,
+                        "y": 504
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0614",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 544,
+                        "y": 393
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1511",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 687,
+                        "y": 361
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1810",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Egg 3",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 365,
+                        "y": 252
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1007",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Egg 4",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 114,
+                        "y": 290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0306",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 258,
+                        "y": 111
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0703",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 222,
+                        "y": 76
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 651,
+                        "y": 181
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Egg 2/Nixie",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 438,
+                        "y": 146
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Egg",
+                        "access_rules": [""],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nixie",
+                        "access_rules": [""],
+                        "item_count": 1,
+                        "hosted_item": "nixie"
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 535,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1413",
+                        "access_rules": 
+                        [
+                            "$labAccess"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 571,
+                        "y": 403
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1411",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 320,
+                        "y": 259
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0607",
+                        "access_rules": 
+                        [
+                            "doublejump",
+                            "hammer,slide,hammerslide",
+                            "hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 140,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0206",
+                        "access_rules":
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Egg 2/Saya",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 823,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2021 Use Sayas Blocks",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Defeat Saya",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1,
+                        "hosted_item": "saya"
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Egg 3",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 679,
+                        "y": 81
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1902",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 607,
+                        "y": 148
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1704",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 214,
+                        "y": 113
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0703",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Egg 3",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 679,
+                        "y": 39
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1901",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 819,
+                        "y": 252
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Egg 2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3505,
+                        "y": 1356
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3505,
+                        "y": 1356
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3505,
+                        "y": 1356
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Egg 1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3505,
+                        "y": 1356
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

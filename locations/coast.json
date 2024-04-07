@@ -1,0 +1,619 @@
+[
+    {
+        "name": "Western Coast",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Pyramid - Mana Up Dark Room",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 390,
+                        "y": 567
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1116",
+                        "access_rules": 
+                        [
+                            "bombs,lightorb,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid -  Attack up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 505,
+                        "y": 567
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1416",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid - Chaos Rod",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 540,
+                        "y": 568
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1516",
+                        "access_rules": [
+                            "slide,bombs,defeatPandora,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 505,
+                        "y": 531
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1415",
+                        "access_rules": [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid - Regen up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 684,
+                        "y": 531
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1915",
+                        "access_rules": [
+                            "defeatPandora"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pyramid - Hourglass",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 718,
+                        "y": 495
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2014",
+                        "access_rules": [
+                            "defeatPandora"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Pyramid - Mana Up Bomb Block Room",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 648,
+                        "y": 495
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1714",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Pyramid - Armored",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 542,
+                        "y": 495
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1414",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Pyramid - Health Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 434,
+                        "y": 460
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1213",
+                        "access_rules": [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Health Plus",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 360,
+                        "y": 460
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1013",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 178,
+                        "y": 460
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0313",
+                        "access_rules": [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Sunny Beam",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 288,
+                        "y": 423
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0712",
+                        "access_rules": [
+                            "defeatAshuri1",
+                            "doublejump"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Health Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 465,
+                        "y": 423
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0912",
+                        "capture_item": true,
+                        "access_rules": [
+                            "bombs",
+                            "carrotshot",
+                            "{}" 
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Mana Up Behind Wall",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 718,
+                        "y": 423
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1812",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Mana Up On Pedestal",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 829,
+                        "y": 423
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1812",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Health Up Near Pyramid",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 611,
+                        "y": 383
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1711",
+                        "access_rules": [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Beach - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 575,
+                        "y": 319
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1509 (Land on corner from left)",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Mana Up Warp",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 217,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0607",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 397,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0907",
+                        "access_rules":
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Auto Earrings",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 325,
+                        "y": 245
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0907",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Health Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 217,
+                        "y": 208
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0606",
+                        "access_rules":
+                        [
+                            ""
+                            
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Health Wager",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 182,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0505",
+                        "access_rules":
+                        [
+                            "doublejump,hammer,dash"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Graveyard - Mana Up Upper",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 325,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0904",
+                        "access_rules":
+                        [
+                            "hammer,whirl,slippers",
+                            "doublejump"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Air Dash",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 684,
+                        "y": 207
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1906",
+                        "access_rules":
+                        [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Health Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 758,
+                        "y": 172
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2105",
+                        "access_rules":
+                        [
+                            "hammer,airdash,bombs,doublejump",
+                            "slippers,doublejump,bombs"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 827,
+                        "y": 133
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2304",
+                        "access_rules":
+                        [
+                            "doublejump,hammer,airdash,bombs",
+                            "doublejump,slippers,bombs",
+                            "doublejump,hammer,airdash,carrotshot",
+                            "doublejump,slippers,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Pure Love",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 719,
+                        "y": 63
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2002",
+                        "access_rules":
+                        [
+                            "bombs,slide,doublejump,slippers",
+                            "bombs,slide,hammer,airdash,doublejump",
+                            "carrotshot,slide,doublejump,slippers",
+                            "carrotshot,slide,hammer,airdash,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Top Form",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 613,
+                        "y": 63
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1720",
+                        "access_rules":
+                        [
+                            "slippers,doublejump",
+                            "doublejump,hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "Sky Island - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 790,
+                        "y": 31
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2001",
+                        "access_rules":
+                        [
+                            "bombs,slide,doublejump,slippers",
+                            "bombs,slide,hammer,airdash,doublejump",
+                            "carrotshot,slide,doublejump,slippers",
+                            "carrotshot,slide,hammer,airdash,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            }
+        ]
+    }
+]

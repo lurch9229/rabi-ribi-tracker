@@ -1,0 +1,75 @@
+{
+  "main_island_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Southern Woodland",
+        "content": {
+          "type": "map",
+          "maps": ["SouthernWoodlandMap"]
+        }
+      },
+      {
+        "title": "Western Coast",
+        "content": {
+          "type": "map",
+          "maps": ["WesternCoastMap"]
+        }
+      },
+      {
+        "title": "Island Core",
+        "content": {
+          "type": "map",
+          "maps": ["IslandCoreMap"]
+        }
+      },
+      {
+        "title": "Northern Tundra",
+        "content": {
+          "type": "map",
+          "maps": ["NorthernTundraMap"]
+        }
+      },
+      {
+        "title": "Eastern Highlands",
+        "content": {
+          "type": "map",
+          "maps": ["EasternHighlandsMap"]
+        }
+      }
+    ]
+  },
+  "side_areas_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Subterranean Area",
+        "content": {
+          "type": "map",
+          "maps": ["SubterraneanAreaMap"]
+        }
+      },
+      {
+        "title": "System Interior",
+        "content": {
+          "type": "map",
+          "maps": ["SystemInteriorMap"]
+        }
+      },
+      {
+        "title": "Plurkwood",
+        "content": {
+          "type": "map",
+          "maps": ["PlurkwoodMap"]
+        }
+      },
+	    {
+        "title": "City Warp",
+        "content": {
+          "type": "map",
+          "maps": ["CityWarpMap"]
+        }
+      }
+    ]
+  }
+}

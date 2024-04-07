@@ -1,0 +1,644 @@
+[
+    {
+        "name": "Southern Woodland",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Starting Forest - Piko Hammer",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 359,
+                        "y": 208
+                    }
+                ],
+                "access_rules": [
+                    "$forest_start"
+                ],
+                "sections": [
+                    {
+                        "name": "#0906",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Regen Up East",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 99
+                    }
+                ],
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "#2103",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "doublejump",
+                            "walljump",
+                            "{}"  
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 285,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0805",
+                        "access_rules":
+                        [
+                            "bombs,hammer,airdash,",
+                            "bombs,amulet,",
+                            "bombs,spikebarrier,",
+                            "carrotshot,hammer,airdash,",
+                            "carrotshot,amulet,",
+                            "carrotshot,spikebarrier,",
+                            "bombs,health:5,",
+                            "carrotshot,health:5",
+                            "walljump,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }, 
+          {
+                "name": "Starting Forest - Health Up North",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 465,
+                        "y": 62
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1302 (Can lure pink girl to the right)",
+                        "access_rules":
+                        [
+                            "slide,amulet,$SF111405",
+                            "slide,spikebarrier,$SF111405",
+                            "slide,hammer,airdash,$SF111405",
+                            "slide,amulet,$SF111602",
+                            "slide,spikebarrier,$SF111602",
+                            "slide,hammer,airdash,$SF111602",
+                            "slide,$SF111602,health:5",
+                            "slide,$SF111405,health:5"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Light Orb",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 611,
+                        "y": 62
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1602",
+                        "access_rules":
+                        [
+                            "slide,hammer,airdash,bombs,",
+                            "slide,hammer,airdash,carrotshot,",
+                            "slide,doublejump,bombs,",
+                            "slide,doublejump,carrotshot,",
+                            "slide,hammer,whirl,bombs,",
+                            "slide,hammer,whirl,carrotshot,"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Carrot Bomb",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 568,
+                        "y": 175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1605",
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Health Up Near Cocoa",
+                "map_locations":
+                [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 648,
+                        "y": 207
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1806",
+                        "access_rules":
+                        [
+                            "bombs,",
+                            "carrotshot,",
+                            "hammer,"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Def Trade",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 610,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1708",
+                        "access_rules":
+                        [
+                            "bombs,",
+                            "carrotshot,"
+                        ], 
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Pack Up East",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2107",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "hammer,slide,",
+                            "bombs,slide,",
+                            "carrotshot,slide,",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Mana Up East",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 207
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2106",
+                        "access_rules":
+                        [
+                            "slippers"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Regen Up Mid",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 503,
+                        "y": 174
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1405",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Mana Up North East",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 794,
+                        "y": 67
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2102",
+                        "access_rules": 
+                        [
+                            "slide,bombs",
+                            "slide,carrotshot",
+                            "{}"                            
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Mana Wager",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 33
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2101",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "doublejump",
+                            "hammer,whirl",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Night Forest - Toxic Strike",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 359,
+                        "y": 137
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1004",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Night Forest - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 217,
+                        "y": 101
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0603",
+                        "access_rules": 
+                        [
+                            "bombs,lightorb",
+                            "carrotshot,lightorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Night Forest - Nature Orb",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 144,
+                        "y": 62
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0402",
+                        "access_rules": 
+                        [
+                            "lightorb, defeatArurune"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Starting Forest - Mana Up (From Forgotten Cave)",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 395,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1107",
+                        "access_rules":
+                        [
+                            "slide,bombs",
+                            "carrotshot,slide",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 289,
+                        "y": 277
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0808",
+                        "access_rules":
+                        [
+                            "slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 289,
+                        "y": 316
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0809",
+                        "access_rules": 
+                        [
+                            "walljump",
+                            "doublejump",
+                            "slippers",
+                            "slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Health Up ",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 324,
+                        "y": 316
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0909",
+                        "access_rules": 
+                        [
+                            "doublejump",
+                            "walljump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 465,
+                        "y": 316
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1309",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "bombs,slide",
+                            "carrotshot,slide",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Cave - Charge Ring",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 718,
+                        "y": 351
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2010",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Mana Up Mid",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 503,
+                        "y": 349
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1410",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Health Up",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 252,
+                        "y": 349
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0710",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Wall Jump",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 465,
+                        "y": 386
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1111",
+                        "access_rules":
+                        [
+                            "slippers",
+                            "doublejump",
+                            "walljump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Tough Skin",
+                "map_locations":
+                [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 430,
+                        "y": 424
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1212",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Health Up Mid",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 537,
+                        "y": 424
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1511",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spectral Cave - Mana Up Near Cicini",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 386
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2111",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },{
+                "name": "Spectral Cave - Arm Strength",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 753,
+                        "y": 424
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2112",
+                        "access_rules": 
+                        [
+                            "hammer,airdash",
+                            "airjump",
+                            "hammer,slide,hammerslide",
+                            "doublejump",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

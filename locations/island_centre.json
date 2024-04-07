@@ -1,0 +1,575 @@
+[
+    {
+        "name": "Island Core",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Ravine - Health Up South",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 655,
+                        "y": 600
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1810",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs,slide",
+                            "carrotshot,slide",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 728,
+                        "y": 565
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2015",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Mana Surge",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 762,
+                        "y": 461
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2111",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Health Up Center",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 691,
+                        "y": 461
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1912",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Attack Up West",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 619,
+                        "y": 422
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1711",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 728,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2010",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Attack Up North",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 691,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1909",
+                        "access_rules":
+                        [
+                            "slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ravine - Hammer Wave",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 619,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1710",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - DEF Grow",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 83,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0216",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Rabi Slippers",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 153,
+                        "y": 565
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0415",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Health Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 117,
+                        "y": 495
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0212",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Mana Up ",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 260,
+                        "y": 385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0414",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "UPRPRC - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 260,
+                        "y": 527
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0710",
+                        "capture_item": true,
+                        "access_rules":
+                        [
+                            "slippers",
+                            "doublejump",
+                            "hammer,slide,hammerslide",
+                            "hammer,airdash",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - ATK Trade",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 83,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0209",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 153,
+                        "y": 313
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0407",
+                        "access_rules": 
+                        [
+                            "spikebarrier,slide",
+                            "amulet,slide",
+                            "health:5,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Park - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 117,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0304",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 370,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1009",
+                        "access_rules": 
+                        [
+                            "doublejump",
+                            "hammer,airdash,slide,bombs",
+                            "hammer,airdash,slide,slippers",
+                            "hammer,airdash,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 261,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0806",
+                        "access_rules": 
+                        [
+                            "doublejump,slide,lightorb",
+                            "hammer,airdash,slide,bombs,lightorb",
+                            "hammer,airdash,slide,slippers,lightorb",
+                            "hammer,airdash,slide,carrotshot,lightorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Hex Cancel",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 226,
+                        "y": 243
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0806",
+                        "access_rules": 
+                        [
+                            "doublejump,slide,lightorb",
+                            "hammer,airdash,slide,bombs,lightorb",
+                            "hammer,airdash,slide,slippers,lightorb",
+                            "hammer,airdash,slide,carrotshot,lightorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Health Surge",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 189,
+                        "y": 204
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0505",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs,lightorb,slide",
+                            "carrotshot,lightorb,slide",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - #1504",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 548,
+                        "y": 170
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack Up",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "slippers",
+                            "doublejump",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vanilla",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "slippers",
+                            "doublejump",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Lucky 7",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 441,
+                        "y": 134
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1203",
+                        "access_rules": 
+                        [
+                            "lightorb,amulet",
+                            "lightorb,spikebarrier",
+                            "lightorb,hammer,airdash",
+                            "lightorb,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 225,
+                        "y": 97
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0602",
+                        "access_rules": 
+                        [
+                            "bombs,slide",
+                            "carrotshot,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bridge - Health Up",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 297,
+                        "y": 97
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0602",
+                        "access_rules": 
+                        [
+                            "slippers",
+                            "doublejump",
+                            "walljump",
+                            "carrotshot",
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rabi-Rabi Town",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 441,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Egg",
+                        "access_rules": 
+                        [
+                            "slippers,doublejump"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shop - Speed Boost",
+                        "access_rules": [""],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shop - Bunny Strike",
+                        "access_rules": [
+                            "hammer,slide"
+                        ],
+                        "item_count": 1
+                    }
+                    
+                ]
+            }
+
+        ]
+    }
+]

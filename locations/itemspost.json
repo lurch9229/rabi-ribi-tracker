@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Post Game",
+        "chest_unopened_img": "images/x.png",
+        "chest_opened_img": "images/check.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "V-U1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3893,
+                        "y": 1486
+                    },
+                    {
+                        "map": "ventilation",
+                        "x": 694,
+                        "y": 405
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "V-C1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3849,
+                        "y": 1271
+                    },
+                    {
+                        "map": "ventilation",
+                        "x": 652,
+                        "y": 191
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "V-C2",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3377,
+                        "y": 1443
+                    },
+                    {
+                        "map": "ventilation",
+                        "x": 180,
+                        "y": 364
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "V-H1",
+                "map_locations": [
+                    {
+                        "map": "worldmap",
+                        "x": 3505,
+                        "y": 1356
+                    },
+                    {
+                        "map": "ventilation",
+                        "x": 310,
+                        "y": 275
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["rockets"],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

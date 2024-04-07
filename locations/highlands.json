@@ -1,0 +1,675 @@
+[
+    {
+        "name": "Eastern Highlands",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Exotic Lab - Sliding Powder",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 571,
+                        "y": 510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1614",
+                        "access_rules": 
+                        [
+                            "$labAccess,bombs",
+                            "$labAccess,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Attack Up Lower",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 679,
+                        "y": 510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1814",
+                        "access_rules": 
+                        [
+                            "$labAccess,bombs",
+                            "$labAccess,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 858,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2413",
+                        "access_rules": 
+                        [
+                            "$labAccess,bombs",
+                            "$labAccess,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Attack Up East",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 822,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2313",
+                        "access_rules": 
+                        [
+                            "$labAccess,doublejump,bombs",
+                            "$labAccess,doublejump,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Health Up Center",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 571,
+                        "y": 475
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1413",
+                        "access_rules":
+                        [
+                            "$labAccess,bombs",
+                            "$labAccess,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 464,
+                        "y": 440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1312",
+                        "access_rules": 
+                        [
+                            "$labAccess,slide",
+                            "$labAccess,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Health Up Tunnel",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 428,
+                        "y": 440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1212",
+                        "access_rules": 
+                        [
+                            "$labAccess,slide,bombs",
+                            "$labAccess,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Exotic Lab - Weaken",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 643, 
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1810",
+                        "access_rules": 
+                        [
+                            "$labAccess"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Regen Up Lower",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 140,
+                        "y": 440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0412",
+                        "access_rules": 
+                        [
+                            "doublejump,bombs,lightorb,hammer,airdash",
+                            "doublejump,carrotshot,lightorb,hammer,airdash",
+                            "doublejump,bombs,lightorb,hammer,spikebarrier",
+                            "doublejump,carrotshot,lightorb,amulet"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Mana Up Lower",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 104,
+                        "y": 440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0312",
+                        "access_rules": 
+                        [
+                            "doublejump,bombs",
+                            "doublejump,carrotshot",
+                            "slide,bombs",
+                            ",slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Health Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 464,
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1210",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Attack Up Right",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 392,
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1110",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs,hammer,whirl,slide",
+                            "slide,carrtotshot,hammer,whirl",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Bunny Whirl",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 320,
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0910",
+                        "access_rules": 
+                        [
+                            "hammer",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 69,
+                        "y": 367
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0210",
+                        "access_rules": 
+                        [
+                            "slide,bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Attack Up Left",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 284,
+                        "y": 331
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0809",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Mana Up Center",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 320,
+                        "y": 331
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0909",
+                        "capture_item": true,
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot",
+                            "{}"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - ATK Grow",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 140,
+                        "y": 261
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0407",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Regen Up Upper",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 69,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0206",
+                        "access_rules": 
+                        [
+                            "doublejump",
+                            "slide,hammer,hammerslide,amulet",
+                            "slide,hammer,hammerslide,spikebarrier",
+                            "slippers,amulet",
+                            "slippers,spikebarrier",
+                            "hammer,airdash",
+                            "hammer,whirl"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Frame Cancel",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 428,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1206",
+                        "access_rules": 
+                        [
+                            "bombs,slide",
+                            "carrotshot,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Riverbank - Explode Shot",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 320,
+                        "y": 189
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0905",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Spike Barrier",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 392,
+                        "y": 81
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1102",
+                        "access_rules": 
+                        [
+                            "slide",
+                            "doublejump",
+                            "hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 715,
+                        "y": 81
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2001",
+                        "access_rules": 
+                        [
+                            "slide,bombs",
+                            "slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Attack Up West",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 607,
+                        "y": 116
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1703",
+                        "access_rules": 
+                        [
+                            "doublejump",
+                            "hammer,airdash"
+                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Pack Up Upper",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 679,
+                        "y": 116
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1903",
+                        "access_rules": 
+                        [
+                            "hammer,airdash",
+                            "doublejump",
+                            "hammer,slide,hammerslide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Attack Up East",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 751,
+                        "y": 116
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2103",
+                        "access_rules": 
+                        [
+                            "slide,bombs",
+                            "slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },{
+                "name": "Evernight Peak - Health Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 535,
+                        "y": 152
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1504",
+                        "access_rules": 
+                        [
+                            ",bombs,slippers",
+                            ",bombs,doublejump",
+                            ",bombs,slide,hammer,hammerslide",
+                            ",bombs,hammer,airdash",
+                            ",carrotshot,slippers",
+                            ",carrotshot,doublejump",
+                            ",carrotshot,slide,hammer,hammerslide",
+                            ",carrotshot,hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Hammer Roll",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 858,
+                        "y": 152
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2404",
+                        "access_rules": 
+                        [
+                            "hammer,whirl"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 499,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1406",
+                        "access_rules": 
+                        [
+                            ",lightorb,doublejump,hammer,slide,hammerslide,amulet",
+                            ",lightorb,doublejump,slippers,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Plus Necklace",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 607,
+                        "y": 224
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1606",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Pack Up Lower",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 679,
+                        "y": 296
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1708",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Evernight Peak - Cashback",
+                "map_locations": [
+                    {
+                        "map": "EasternHighlandsMap",
+                        "x": 606,
+                        "y": 332
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1709",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,641 @@
+[
+    {
+        "name": "Post Game Eggs",
+        "chest_unopened_img": "images/items/easter_egg.png",
+        "chest_opened_img": "images/items/bunny_memories.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "SysInt 2",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 103,
+                        "y": 504
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "SysInt 2",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 711,
+                        "y": 326
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bomb Floor Before Minigame",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plurkwood ",
+                "map_locations": [
+                    {
+                        "map": "PlurkwoodMap",
+                        "x": 35,
+                        "y": 463
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0913",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plurkwood",
+                "map_locations": [
+                    {
+                        "map": "PlurkwoodMap",
+                        "x": 35,
+                        "y": 250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0906",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plurkwood",
+                "map_locations": [
+                    {
+                        "map": "PlurkwoodMap",
+                        "x": 285,
+                        "y": 212
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1006",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Visit 3",
+                "map_locations": [
+                    {
+                        "map": "CityWarpMap",
+                        "x": 707,
+                        "y": 73
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1904",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Visit 3",
+                "map_locations": [
+                    {
+                        "map": "CityWarpMap",
+                        "x": 815,
+                        "y": 106
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2305",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },{
+                "name": "Chapter 4 Visit",
+                "map_locations": [
+                    {
+                        "map": "CityWarpMap",
+                        "x": 423,
+                        "y": 73
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1203",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Infinity Pit",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 858,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Memories 1",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 321,
+                        "y": 584
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0915",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Memories 2",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 249,
+                        "y": 260
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0707",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Memories 3",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 321,
+                        "y": 260
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0907",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 1",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 536,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1513",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 2",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 285,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0811",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 3",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 822,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2309",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 4",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 644,
+                        "y": 325
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1809",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 5",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 464,
+                        "y": 221
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1306",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hall of Deep Memories 6",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 175,
+                        "y": 148
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0404",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Boss Rush",
+                "map_locations": [
+                    {
+                        "map": "SouthernWoodlandMap",
+                        "x": 36,
+                        "y": 497
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0113",
+                        "access_rules": [
+                            "Chapter6"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 1",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 144,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0203,Left",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 2",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 288,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0203,Right",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 3",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 72,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0208",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 4",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 144,
+                        "y": 315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0409",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 5",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 360,
+                        "y": 315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1009",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 6",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 144,
+                        "y": 353
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 7/8",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 612,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1708",
+                        "access_rules": [""],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 9",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 648,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1808",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Halloween 10",
+                "map_locations": [
+                    {
+                        "map": "WesternCoastMap",
+                        "x": 684,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1908",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 2",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 691,
+                        "y": 205
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1805",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 1",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 619,
+                        "y": 205
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1605",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 3",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 763,
+                        "y": 240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2006",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 4",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 835,
+                        "y": 275
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2207",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 5",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 763,
+                        "y": 310
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1908",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 6",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 799,
+                        "y": 312
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2408, Upper",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 7",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 799,
+                        "y": 348
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2408, Lower",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 8",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 515,
+                        "y": 63
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1400, Left",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Windy Ravine 9",
+                "map_locations": [
+                    {
+                        "map": "IslandCoreMap",
+                        "x": 620,
+                        "y": 63
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1400, Right",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            }
+
+        ]
+    }
+]

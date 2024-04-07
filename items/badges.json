@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Arm Strength",
+    "type": "toggle",
+    "codes": "armStrength",
+    "img": "images/badges/Arm_Strength.png"
+  },
+  {
+    "name": "Armored",
+    "type": "toggle",
+    "codes": "armored",
+    "img": "images/badges/Armored.png"
+  },
+  {
+    "name": "Attack Grow",
+    "type": "toggle",
+    "codes": "attackGrow",
+    "img": "images/badges/ATK_Grow.png"
+  },
+  {
+    "name": "Attack Trade",
+    "type": "toggle",
+    "codes": "attackTrade",
+    "img": "images/badges/ATK_Trade.png"
+  },
+  {
+    "name": "Blessed",
+    "type": "toggle",
+    "codes": "blessed",
+    "img": "images/badges/Blessed.png"
+  },
+  {
+    "name": "Carrot Boost",
+    "type": "toggle",
+    "codes": "carrotBoost",
+    "img": "images/badges/Carrot_Boost.png"
+  },
+  {
+    "name": "Cashback",
+    "type": "toggle",
+    "codes": "cashback",
+    "img": "images/badges/Cashback.png"
+  },
+  {
+    "name": "Crisis Boost",
+    "type": "toggle",
+    "codes": "crisisBoost",
+    "img": "images/badges/Crisis_Boost.png"
+  },
+  {
+    "name": "Defense Grow",
+    "type": "toggle",
+    "codes": "defenseGrow",
+    "img": "images/badges/DEF_Grow.png"
+  },
+  {
+    "name": "Defense Trade",
+    "type": "toggle",
+    "codes": "defenseTrade",
+    "img": "images/badges/DEF_Trade.png"
+  },
+  {
+    "name": "Erina Badge",
+    "type": "toggle",
+    "codes": "erinaBadge",
+    "img": "images/badges/Erina_Badge.png"
+  },
+  {
+    "name": "Frame Cancel",
+    "type": "toggle",
+    "codes": "frameCancel",
+    "img": "images/badges/Frame_Cancel.png"
+  },
+  {
+    "name": "Health Plus",
+    "type": "toggle",
+    "codes": "healthPlus",
+    "img": "images/badges/Health_Plus.png"
+  },
+  {
+    "name": "Health Surge",
+    "type": "toggle",
+    "codes": "healthSurge",
+    "img": "images/badges/Health_Surge.png"
+  },
+  {
+    "name": "Health Wager",
+    "type": "toggle",
+    "codes": "healthWager",
+    "img": "images/badges/Health_Wager.png"
+  },
+  {
+    "name": "Hex Cancel",
+    "type": "toggle",
+    "codes": "hexCancel",
+    "img": "images/badges/Hex_Cancel.png"
+  },
+  {
+    "name": "Hitbox Down",
+    "type": "toggle",
+    "codes": "hitboxDown",
+    "img": "images/badges/Hitbox_Down.png"
+  },
+  {
+    "name": "Lucky 7",
+    "type": "toggle",
+    "codes": "lucky7",
+    "img": "images/badges/Lucky_Seven.png"
+  },
+  {
+    "name": "Mana Plus",
+    "type": "toggle",
+    "codes": "manaPlus",
+    "img": "images/badges/Mana_Plus.png"
+  },
+  {
+    "name": "Mana Surge",
+    "type": "toggle",
+    "codes": "manaSurge",
+    "img": "images/badges/Mana_Surge.png"
+  },
+  {
+    "name": "Mana Wager",
+    "type": "toggle",
+    "codes": "manaWager",
+    "img": "images/badges/Mana_Wager.png"
+  },
+  {
+    "name": "Pure Love",
+    "type": "toggle",
+    "codes": "pureLove",
+    "img": "images/badges/Pure_Love.png"
+  },
+  {
+    "name": "Ribbon Badge",
+    "type": "toggle",
+    "codes": "ribbonBadge",
+    "img": "images/badges/Ribbon_Badge.png"
+  },
+  {
+    "name": "Self Defense",
+    "type": "toggle",
+    "codes": "selfDefense",
+    "img": "images/badges/Self_Defense.png"
+  },
+  {
+    "name": "Stamina Plus",
+    "type": "toggle",
+    "codes": "staminaPlus",
+    "img": "images/badges/Stamina_Plus.png"
+  },
+  {
+    "name": "Survival",
+    "type": "toggle",
+    "codes": "survival",
+    "img": "images/badges/Survival.png"
+  },
+  {
+    "name": "Top Form",
+    "type": "toggle",
+    "codes": "topForm",
+    "img": "images/badges/Top_Form.png"
+  },
+  {
+    "name": "Tough Skin",
+    "type": "toggle",
+    "codes": "toughSkin",
+    "img": "images/badges/Tough_Skin.png"
+  },
+  {
+    "name": "Toxic Strike",
+    "type": "toggle",
+    "codes": "toxicStrike",
+    "img": "images/badges/Toxic_Strike.png"
+  },
+  {
+    "name": "Weaken",
+    "type": "toggle",
+    "codes": "weaken",
+    "img": "images/badges/Weaken.png"
+  },
+  {
+    "name": "Auto Trigger",
+    "type": "toggle",
+    "codes": "autoTrigger",
+    "img": "images/badges/Auto_Trigger.png"
+  }
+]

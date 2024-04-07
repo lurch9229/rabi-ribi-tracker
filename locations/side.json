@@ -1,0 +1,164 @@
+[
+    {
+        "name": "Side Areas",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "System Interior - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 819,
+                        "y": 182
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1805",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Air Jump",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 497,
+                        "y": 182
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1604",
+                        "access_rules": [""],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 711,
+                        "y": 74
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#2002",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Health Up",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 675,
+                        "y": 37
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1901",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 391,
+                        "y": 108
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1103",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "System Interior - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "SystemInteriorMap",
+                        "x": 355,
+                        "y": 108
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1003",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Fire Orb",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 607,
+                        "y": 256
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1707",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 643,
+                        "y": 112
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#1702",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Volcano - Health Up",
+                "map_locations": [
+                    {
+                        "map": "SubterraneanAreaMap",
+                        "x": 214,
+                        "y": 148
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "#0604",
+                        "access_rules": [""],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

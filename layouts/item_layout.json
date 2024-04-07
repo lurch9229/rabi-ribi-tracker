@@ -1,0 +1,14 @@
+{
+  "item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [ "pack", "health", "attack", "mana", "regen", "nature", "fire", "water", "light"],
+      [ "hammer", "bombs", "amulet", "super", "slippers", "doublejump", "slide"],
+      [ "walljump", "airdash", "triplejump", "whirl", "hammerSlide", "hammerRoll", "spikebarrier"],
+      [ "hammerWave", "sunnybeam", "chaosrod", "healingstaff", "explodeshot", "carrotshot", "eggshot"],
+      [ "chapter","easterEgg","tm"]
+    ]
+  }
+}

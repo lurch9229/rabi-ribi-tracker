@@ -1,0 +1,13 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "rabi_item_grid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Rabi-Ribi Randomizer Tracker",
+	"game_name": "Rabi-Ribi",
+	"package_version": "1.1.0",
+	"package_uid": "rabiribi_maptracker_lurch9229",
+	"author": "Lurch9229",
+	"platform": "PC",
+	"variants": {
+		"map_tracker": {
+			"display_name": "Map Tracker",
+			"flags": ["ap"]
+		},
+		"minimal_tracker": {
+			"display_name": "Map Tracker (Minimal Items)",
+			"flags": ["ap"]
+		}
+	}
+}

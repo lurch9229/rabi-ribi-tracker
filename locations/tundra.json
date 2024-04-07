@@ -1,0 +1,567 @@
+[
+    {
+        "name": "Northern Tundra",
+        "chest_unopened_img": "images/bosses/erina_portrait_2.png",
+        "chest_opened_img": "images/bosses/erina_portrait_1.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Aquarium - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 759,
+                        "y": 504
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2114",
+                        "access_rules": 
+                        [
+                            "waterorb,bombs,slide",
+                            "waterorb,carrotshot,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Health Up West",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 77,
+                        "y": 505
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0214",
+                        "access_rules": 
+                        [
+                            "waterorb,bombs,lightorb",
+                            "waterorb,carrotshot,lightorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Mana Plus",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 112,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0313",
+                        "access_rules": 
+                        [
+                            "waterorb,lightorb,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Attack Up Center",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 506,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1313",
+                        "access_rules":
+                        [
+                            "waterorb,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 831,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2313",
+                        "access_rules": 
+                        [
+                            "waterorb,slide,bombs",
+                            "waterorb,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 831,
+                        "y": 434
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2212",
+                        "access_rules": 
+                        [
+                            "waterorb,slide,bombs",
+                            "waterorb,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Health Up Upper",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 330,
+                        "y": 433
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0910",
+                        "access_rules": 
+                        [
+                            "waterorb,slide,bombs",
+                            "waterorb,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Aquarium - Attack Up Upper",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 365,
+                        "y": 363
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1010",
+                        "access_rules": 
+                        [
+                            "waterorb,slide,bombs",
+                            "waterorb,slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 651,
+                        "y": 361
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1810",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Carrot Boost",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 831,
+                        "y": 398
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#2311",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Quick Barrette",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 616,
+                        "y": 326
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1709",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Health Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 795,
+                        "y": 326
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1809",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Self Defense",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 294,
+                        "y": 326
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0809",
+                        "access_rules": 
+                        [
+                            "slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 580,
+                        "y": 290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1608",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Azure Snow - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 186,
+                        "y": 290
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0508",
+                        "access_rules": 
+                        [
+                            "slide,bombs",
+                            "slide,carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 258,
+                        "y": 218
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0306",
+                        "access_rules": 
+                        [
+                            "slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Stamina Plus",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 222,
+                        "y": 182
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0305",
+                        "access_rules":
+                        [
+                            "bombs,slide",
+                            "carrotshot,slide"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 148,
+                        "y": 146
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0404",
+                        "access_rules": 
+                        [
+                            "slide,fireorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Regen Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 222,
+                        "y": 146
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "0404",
+                        "access_rules": 
+                        [
+                            "slide,slippers,hammer,hammerslide,lightorb",
+                            "slide,doublejump,lightorb"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Health Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 77,
+                        "y": 74
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0202",
+                        "access_rules": 
+                        [
+                            "slide,slippers,walljump",
+                            "slide,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Palace - Water Orb",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 77,
+                        "y": 37
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#0201",
+                        "access_rules": 
+                        [
+                            "slide,slippers,walljump",
+                            "slide,doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Golden Carrot",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 365,
+                        "y": 37
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1001",
+                        "access_rules": 
+                        [
+                            "slippers,walljump",
+                            "hammer,slide,hammerslide",
+                            "doublejump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Attack Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 473,
+                        "y": 74
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1102",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Super Carrot",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 617,
+                        "y": 74
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1702",
+                        "access_rules": 
+                        [
+                            "bombs",
+                            "carrotshot"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Health Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 617,
+                        "y": 109
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1703",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Pack Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 365,
+                        "y": 109
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1001",
+                        "access_rules": 
+                        [
+                            "hammer,airdash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Summit - Mana Up",
+                "map_locations": [
+                    {
+                        "map": "NorthernTundraMap",
+                        "x": 580,
+                        "y": 182
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "#1605",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

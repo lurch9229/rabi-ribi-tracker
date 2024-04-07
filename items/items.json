@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Knowledge",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "name": "Basic",
+        "img": "images/items/basic_knowledge.png",
+        "inherit_codes": "false",
+        "codes": "basic"
+      },
+      {
+        "name": "Intermediate",
+        "img": "images/items/intermediate_knowledge.png",
+        "inherit_codes": "false",
+        "codes": "intermediate, opIntermediate"
+      },
+      {
+        "name": "Advanced",
+        "img": "images/items/advanced_knowledge.png",
+        "inherit_codes": "false",
+        "codes": "advanced, opAdvanced"
+      }
+    ]
+  },
+  {
+    "name": "Trick Difficulty",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "name": "Normal",
+        "img": "images/items/normal_trick.png",
+        "inherit_codes": "false",
+        "codes": "normal, opNormal"
+      },
+      {
+        "name": "Hard",
+        "img": "images/items/hard_trick.png",
+        "inherit_codes": "false",
+        "codes": "hard, opHard"
+      },
+      {
+        "name": "VHard",
+        "img": "images/items/hard_trick.png",
+        "inherit_codes": "false",
+        "codes": "vhard,opVHard"
+      },
+      {
+        "name": "Stupid",
+        "img": "images/items/hard_trick.png",
+        "inherit_codes": "false",
+        "codes": "stupid,opStupid"
+      }
+    ]
+  },
+  {
+    "name": "Pack Up",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/pack_up.png",
+    "codes": "pack, packUp",
+	"swap_actions": false,
+	"max_quantity": 18,
+	"initial_quantity" : 0
+  },
+  {
+    "name": "HP Up",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/health_up.png",
+    "codes": "health, healthUp",
+	  "action_swap": false,
+	  "max_quantity": 26,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "Atk_Up",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/attack_up.png",
+    "codes": "attack, attackUp",
+	  "action_swap": false,
+	  "max_quantity": 21,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "MP_UP",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/mana_up.png",
+    "codes": "mana",
+	  "action_swap": false,
+	  "max_quantity": 25,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "Regen_Up",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/regen_up.png",
+    "codes": "regen, regenUp",
+	  "action_swap": false,
+	  "max_quantity": 16,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "Nature Orb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "Images/items/nature_orb.png",
+    "codes": "nature, natureOrb"
+  },
+  {
+    "name": "Fire Orb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/fire_orb.png",
+    "codes": "fire, fireOrb"
+  },
+  {
+    "name": "Water Orb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/water_orb.png",
+    "codes": "water"
+  },
+  {
+    "name": "Light Orb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/light_orb.png",
+    "codes": "light, lightOrb"
+  },
+  {
+    "name": "Piko Hammer",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/piko_hammer.png",
+    "codes": "hammer"
+  },
+  {
+    "name": "Carrot Bomb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/carrot_bomb.png",
+    "codes": "bombs,carrotBomb"
+  },
+  {
+    "name": "Bunny Amulet",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/bunny_amulet.png",
+    "codes": "amulet"
+  },
+  {
+    "name": "Super Carrot",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/super_carrot.png",
+    "codes": "super, superCarrot"
+  },
+  {
+    "name": "Rabi Slippers",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/rabi_slippers.png",
+    "codes": "slippers"
+  },
+  {
+    "name": "Air Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/air_jump.png",
+    "codes": "doublejump, airJump"
+  },
+  {
+    "name": "Sliding Powder",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/sliding_powder.png",
+    "codes": "slide, slidingPowder"
+  },
+  {
+    "name": "Wall Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/wall_jump.png",
+    "codes": "walljump, wallJump"
+  },
+  {
+    "name": "Air Dash",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/air_dash.png",
+    "codes": "airdash,dash,airDash"
+  },
+  {
+    "name": "Wing Blessing",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/wind_blessing.png",
+    "codes": "triplejump"
+  },
+  {
+    "name": "Bunny Whirl",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/bunny_whirl.png",
+    "codes": "whirl, bunnyWhirl"
+  },
+  {
+    "name": "Bunny Strike",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/bunny_strike.png",
+    "codes": "hammerSlide"
+  },
+  {
+    "name": "Hammer Roll",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/hammer_roll.png",
+    "codes": "hammerRoll"
+  },
+  {
+    "name": "Hammer Wave",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/hammer_wave.png",
+    "codes": "hammerWave"
+  },
+  {
+    "name": "Spike Barrier",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/spike_barrier.png",
+    "codes": "spikeBarrier"
+  },
+  {
+    "name": "Sunny Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/sunny_beam.png",
+    "codes": "sunnyBeam"
+  },
+  {
+    "name": "Chaos Rod",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/chaos_rod.png",
+    "codes": "chaosrod, chaosRod"
+  },
+  {
+    "name": "Healing Staff",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/healing_staff.png",
+    "codes": "healingstaff"
+  },
+  {
+    "name": "Explode Shot",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/explode_shot.png",
+    "codes": "explodeShot"
+  },
+  {
+    "name": "Carrot Shooter",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/carrot_shooter.png",
+    "codes": "carrotshot, carrotShooter"
+  },
+  {
+    "name": "Egg Shooter",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/egg_shooter.png",
+    "codes": "eggshot"
+  },
+  {
+    "name": "Easter Egg",
+    "type": "consumable",
+    "img": "images/items/easter_egg.png",
+    "max_quantity": 80,
+    "increment": 1,
+	  "initial_quantity": 0,
+    "codes": "easteregg, goal"
+  },
+  {
+    "name": "Chapter",
+    "type": "consumable",
+    "img": "images/items/ch.png",
+    "max_quantity": 9,
+    "increment": 1,
+	  "initial_quantity": 0,
+    "codes": "ch,chapter"
+  },
+  {
+    "name": "Town Members",
+    "type": "consumable",
+    "img": "images/items/tm.png",
+    "max_quantity": 30,
+    "increment": 1,
+	  "initial_quantity": 0,
+    "codes": "tm,townmember"
+  },
+  {
+    "name": "Soul Heart",
+    "type": "toggle",
+    "img": "images/items/Soul_Heart.png",
+    "codes": "soulHeart"
+  },
+  {
+    "name": "Hourglass",
+    "type": "toggle",
+    "img": "images/items/Hourglass.png",
+    "codes": "hourglass"
+  },
+  {
+    "name": "Strange Box",
+    "type": "toggle",
+    "img": "images/items/Strange_Box.png",
+    "codes": "strangeBox"
+  },
+  {
+    "name": "Book of Carrot",
+    "type": "toggle",
+    "img": "images/items/Book_Of_Carrot.png",
+    "codes": "bookCarrot"
+  },
+  {
+    "name": "P Hairpin",
+    "type": "toggle",
+    "img": "images/items/P_Hairpin.png",
+    "codes": "pHairpin"
+  },
+  {
+    "name": "Cyber Flower",
+    "type": "toggle",
+    "img": "images/items/Cyber_Flower.png",
+    "codes": "cyberFlower"
+  },
+  {
+    "name": "Auto Earrings",
+    "type": "toggle",
+    "img": "images/items/Auto_Earrings.png",
+    "codes": "autoEarrings"
+  },
+  {
+    "name": "Plus Necklace",
+    "type": "toggle",
+    "img": "images/items/Plus_Necklace.png",
+    "codes": "plusNecklace"
+  },
+  {
+    "name": "Charge Ring",
+    "type": "toggle",
+    "img": "images/items/Charge_Ring.png",
+    "codes": "chargeRing"
+  },
+  {
+    "name": "Max Bracelet",
+    "type": "toggle",
+    "img": "images/items/Max_Bracelet.png",
+    "codes": "maxBracelet"
+  },
+  {
+    "name": "Quick Barette",
+    "type": "toggle",
+    "img": "images/items/Quick_Barette.png",
+    "codes": "quickBarette"
+  }
+]

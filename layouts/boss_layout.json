@@ -1,0 +1,14 @@
+{
+  "rabi_boss_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      ["cocoa","kotri","ashuri","rita"],
+      ["chocolate","vanilla","nieve","nixie"],
+      ["aruraune","seana","cicini","syaro"],
+      ["pandora","lilith","alius","crystal"],
+      ["noah","miriam","rumi","irisu"]
+    ]
+  }
+}

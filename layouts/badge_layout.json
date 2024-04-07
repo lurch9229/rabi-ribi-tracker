@@ -1,0 +1,12 @@
+{
+  "badge_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      ["healthPlus", "healthSurge", "manaPlus", "manaSurge", "crisisBoost", "attackGrow", "defenseGrow", "attackTrade", "defenseTrade", "armStrength"],
+      ["carrotBoost", "weaken", "selfDefense", "armored", "lucky7", "hexCancel", "pureLove", "toxicStrike", "frameCancel", "healthWager", "manaWager"],
+      ["staminaPlus", "blessed", "hitboxDown", "cashback", "survival", "topForm", "toughSkin", "erinaBadge", "ribbonBadge", "autoTrigger"]
+    ]
+  }
+}

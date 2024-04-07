@@ -1,0 +1,56 @@
+[
+  {
+    "name": "SouthernWoodlandMap",
+    "location_size": 20,
+    "location_border_thickness": 3,
+    "img": "images/maps/map_southern_woodland.png"
+  },
+  {
+    "name": "WesternCoastMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_western_coast.png"
+  },
+  {
+    "name": "IslandCoreMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_island_core.png"
+  },
+  {
+    "name": "EasternHighlandsMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_eastern_highlands.png"
+  },
+  {
+    "name": "NorthernTundraMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_northern_tundra.png"
+  },
+  {
+    "name": "SubterraneanAreaMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_subterranean_area.png"
+  },
+  {
+    "name": "PlurkwoodMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_plurkwood.png"
+  },
+  {
+    "name": "CityWarpMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_warp_destination.png"
+  },
+  {
+    "name": "SystemInteriorMap",
+    "location_size": 30,
+    "location_border_thickness": 5,
+    "img": "images/maps/map_system_interior.png"
+  }
+]

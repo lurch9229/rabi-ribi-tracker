@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Knowledge",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "name": "Basic",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "basic"
+      },
+      {
+        "name": "Intermediate",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "intermediate"
+      },
+      {
+        "name": "Advanced",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "advanced"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "name": "Normal",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "normal"
+      },
+      {
+        "name": "Hard",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "hard"
+      },
+      {
+        "name": "Very Hard",
+        "img": "images/items/.png",
+        "inherit_codes": "false",
+        "codes": "vhard"
+      }
+    ]
+  },
+  {
+    "name": "Cocoa",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/bosses/cocoa.png",
+    "codes": "cocoa",
+	"swap_actions": false,
+	"max_quantity": 2,
+	"initial_quantity" : 0
+  },
+  {
+    "name": "Ashuri",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/bosses/ashuri.png",
+    "codes": "ashuri",
+	  "action_swap": false,
+	  "max_quantity": 2,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "Kotri",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/bosses/kotri_green.png",
+    "codes": "kotri",
+	  "action_swap": false,
+	  "max_quantity": 3,
+	  "initial_quantity": 0
+  },
+  {
+    "name": "Rita",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/rita.png",
+    "codes": "rita",
+	  "action_swap": false
+  },
+  {
+    "name": "Nixie",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/nixie.png",
+    "codes": "nixie",
+	  "action_swap": false
+  },
+  {
+    "name": "Nieve",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/nieve.png",
+    "codes": "nieve"
+  },
+  {
+    "name": "Pandora",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/pandora.png",
+    "codes": "pandora"
+  },
+  {
+    "name": "Chocolate",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/chocolate.png",
+    "codes": "chocolate"
+  },
+  {
+    "name": "Vanilla",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/vanilla.png",
+    "codes": "vanilla"
+  },
+  {
+    "name": "Seana",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/seana.png",
+    "codes": "seana"
+  },
+  {
+    "name": "Lilith",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/lilith.png",
+    "codes": "lilith"
+  },
+  {
+    "name": "Saya",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/saya.png",
+    "codes": "saya"
+  },
+  {
+    "name": "Keke Bunny",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/keke.png",
+    "codes": "keke"
+  },
+  {
+    "name": "Aruraune",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/aruraune.png",
+    "codes": "aruraune"
+  },
+  {
+    "name": "Rumi",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/rumi.png",
+    "codes": "rumi"
+  },
+  {
+    "name": "Alius",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/bosses/alius.png",
+    "codes": "alius",
+    "max_quantity": 3
+  },
+  {
+    "name": "Miriam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/miriam.png",
+    "codes": "miriam"
+  },
+  {
+    "name": "Noah",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/noah.png",
+    "codes": "noah"
+  },
+  {
+    "name": "Cicini",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/cicini.png",
+    "codes": "cicini"
+  },
+  {
+    "name": "Syaro",
+    "type": "toggle",
+    "img": "images/bosses/syaro.png",
+    "codes": "syaro"
+  },
+  {
+    "name": "Rainbow Crystal",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/rainbow_crystal.png",
+    "codes": "crystal"
+  },
+  {
+    "name": "Irisu",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bosses/irisu.png",
+    "codes": "irisu"
+  }
+]
